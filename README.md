@@ -19,9 +19,9 @@ My goals for this new device (unimaginatively called ReBox) to be developed were
 
 ![image-20220220190459473](doc/img/image-20220220190459473.png)
 
-![](doc/img/Rebox01.jpg)
+![](doc/img/ReBox01.jpg)
 
-![](doc/img/Rebox02.jpg)
+![](doc/img/ReBox02.jpg)
 
 # Component Choices
 
