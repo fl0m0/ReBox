@@ -1,0 +1,26 @@
+build/
+debug/
+dist/
+disassembly/
+
+nbproject/private/
+nbproject/*.mk
+nbproject/*.bash
+nbproject/Makefile-genesis.properties
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Executables
+*.exe
+
+
+# KDE specific
+.directory
+
+# Misc
+.svn
+*.bak

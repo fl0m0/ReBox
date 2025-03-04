@@ -1,0 +1,199 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 5500 2000 2000 1000
+U 61BDDEAB
+F0 "Relais" 50
+F1 "Relais.sch" 50
+F2 "RLY4_CTRL" I L 5500 2500 50 
+F3 "RLY5_CTRL" I L 5500 2600 50 
+F4 "RLY6_CTRL" I L 5500 2700 50 
+F5 "RLY3_CTRL" I L 5500 2400 50 
+F6 "RLY2_CTRL" I L 5500 2300 50 
+F7 "RLY1_CTRL" I L 5500 2200 50 
+$EndSheet
+Text Notes 1150 5700 0    50   ~ 0
+All resistors 1%, 0,1W if not noted otherwise
+$Sheet
+S 5500 3500 2000 1500
+U 61C6177D
+F0 "Switches" 50
+F1 "Switches.sch" 50
+F2 "SDA" B L 5500 3750 50 
+F3 "SCL" I L 5500 3650 50 
+F4 "BTN1" O L 5500 4050 50 
+F5 "BTN2" O L 5500 4150 50 
+F6 "BTN3" O L 5500 4250 50 
+F7 "BTN4" O L 5500 4350 50 
+F8 "BTN6" O L 5500 4550 50 
+F9 "BTN5" O L 5500 4450 50 
+F10 "BTN7" O L 5500 4650 50 
+F11 "~LED_OE" I L 5500 3900 50 
+$EndSheet
+$Comp
+L Mechanical:MountingHole H107
+U 1 1 61CF6D34
+P 2150 6800
+F 0 "H107" H 2250 6846 50  0000 L CNN
+F 1 "MountingHole" H 2250 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2150 6800 50  0001 C CNN
+F 3 "~" H 2150 6800 50  0001 C CNN
+	1    2150 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H106
+U 1 1 61CF673A
+P 1250 6800
+F 0 "H106" H 1350 6846 50  0000 L CNN
+F 1 "MountingHole" H 1350 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1250 6800 50  0001 C CNN
+F 3 "~" H 1250 6800 50  0001 C CNN
+	1    1250 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H105
+U 1 1 61CF5F59
+P 1250 6500
+F 0 "H105" H 1350 6546 50  0000 L CNN
+F 1 "MountingHole" H 1350 6455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1250 6500 50  0001 C CNN
+F 3 "~" H 1250 6500 50  0001 C CNN
+	1    1250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H104
+U 1 1 61E0A5E8
+P 3650 6000
+F 0 "H104" H 3750 6046 50  0000 L CNN
+F 1 "MountingHole" H 3750 5955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3650 6000 50  0001 C CNN
+F 3 "~" H 3650 6000 50  0001 C CNN
+	1    3650 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H102
+U 1 1 61E0A047
+P 1250 7100
+F 0 "H102" H 1350 7146 50  0000 L CNN
+F 1 "MountingHole" H 1350 7055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1250 7100 50  0001 C CNN
+F 3 "~" H 1250 7100 50  0001 C CNN
+	1    1250 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H103
+U 1 1 61E09C07
+P 3650 7100
+F 0 "H103" H 3750 7146 50  0000 L CNN
+F 1 "MountingHole" H 3750 7055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3650 7100 50  0001 C CNN
+F 3 "~" H 3650 7100 50  0001 C CNN
+	1    3650 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H101
+U 1 1 61E080D2
+P 1250 6000
+F 0 "H101" H 1350 6046 50  0000 L CNN
+F 1 "MountingHole" H 1350 5955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1250 6000 50  0001 C CNN
+F 3 "~" H 1250 6000 50  0001 C CNN
+	1    1250 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H108
+U 1 1 61CFBAF8
+P 2900 6800
+F 0 "H108" H 3000 6846 50  0000 L CNN
+F 1 "MountingHole" H 3000 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2900 6800 50  0001 C CNN
+F 3 "~" H 2900 6800 50  0001 C CNN
+	1    2900 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H109
+U 1 1 61CFDB70
+P 3650 6800
+F 0 "H109" H 3750 6846 50  0000 L CNN
+F 1 "MountingHole" H 3750 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3650 6800 50  0001 C CNN
+F 3 "~" H 3650 6800 50  0001 C CNN
+	1    3650 6800
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 2850 2000 2150 3000
+U 61BDDDFC
+F0 "MCU" 50
+F1 "MCU.sch" 50
+F2 "BTN1" I R 5000 4050 50 
+F3 "BTN2" I R 5000 4150 50 
+F4 "BTN3" I R 5000 4250 50 
+F5 "BTN4" I R 5000 4350 50 
+F6 "BTN5" I R 5000 4450 50 
+F7 "BTN6" I R 5000 4550 50 
+F8 "BTN7" I R 5000 4650 50 
+F9 "RLY1_CTRL" O R 5000 2200 50 
+F10 "RLY2_CTRL" O R 5000 2300 50 
+F11 "RLY3_CTRL" O R 5000 2400 50 
+F12 "RLY4_CTRL" O R 5000 2500 50 
+F13 "RLY5_CTRL" O R 5000 2600 50 
+F14 "RLY6_CTRL" O R 5000 2700 50 
+F15 "~LED_OE" O R 5000 3900 50 
+F16 "SCL" O R 5000 3650 50 
+F17 "SDA" B R 5000 3750 50 
+$EndSheet
+Wire Wire Line
+	5500 3650 5000 3650
+Wire Wire Line
+	5000 3750 5500 3750
+Wire Wire Line
+	5500 3900 5000 3900
+Wire Wire Line
+	5000 4050 5500 4050
+Wire Wire Line
+	5500 4150 5000 4150
+Wire Wire Line
+	5000 4250 5500 4250
+Wire Wire Line
+	5500 4350 5000 4350
+Wire Wire Line
+	5000 4450 5500 4450
+Wire Wire Line
+	5500 4550 5000 4550
+Wire Wire Line
+	5000 4650 5500 4650
+Wire Wire Line
+	5500 2700 5000 2700
+Wire Wire Line
+	5000 2600 5500 2600
+Wire Wire Line
+	5500 2500 5000 2500
+Wire Wire Line
+	5000 2400 5500 2400
+Wire Wire Line
+	5500 2300 5000 2300
+Wire Wire Line
+	5000 2200 5500 2200
+$EndSCHEMATC

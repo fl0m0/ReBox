@@ -1,0 +1,43 @@
+AR checking written on:
+'D:\Eigene Dateien\Bastelprojekte\ReBox\pcb\ReBox_A1\ReBox_A1_AR-Check.txt'
+'action_menu_annular_check.py'
+version = 1.7.2
+Testing PCB for Annular Rings
+TH Pads >= 0.2 Vias >= 0.2
+PHD margin on PTH = 0.2
+
+VIAS that Pass = 0; Fails = 0
+AR PTH violation of 0.05 at XY 53.75,32.75
+AR PTH violation of 0.05 at XY 52.9,32.75
+AR PTH violation of 0.05 at XY 52.05,32.75
+AR PTH violation of 0.05 at XY 51.2,32.75
+AR PTH violation of 0.05 at XY 50.35,32.75
+AR PTH violation of 0.05 at XY 49.5,32.75
+AR PTH violation of 0.05 at XY 48.65,32.75
+AR PTH violation of 0.05 at XY 47.8,32.75
+AR PTH violation of 0.05 at XY 52.9,31.4
+AR PTH violation of 0.05 at XY 51.2,31.4
+AR PTH violation of 0.05 at XY 52.05,31.4
+AR PTH violation of 0.05 at XY 53.75,31.4
+AR PTH violation of 0.05 at XY 49.5,31.4
+AR PTH violation of 0.05 at XY 48.65,31.4
+AR PTH violation of 0.05 at XY 47.8,31.4
+AR PTH violation of 0.05 at XY 50.35,31.4
+AR PTH violation of 0.05 at XY 75.5,32.75
+AR PTH violation of 0.05 at XY 74.65,32.75
+AR PTH violation of 0.05 at XY 73.8,32.75
+AR PTH violation of 0.05 at XY 72.95,32.75
+AR PTH violation of 0.05 at XY 72.1,32.75
+AR PTH violation of 0.05 at XY 71.25,32.75
+AR PTH violation of 0.05 at XY 70.4,32.75
+AR PTH violation of 0.05 at XY 69.55,32.75
+AR PTH violation of 0.05 at XY 74.65,31.4
+AR PTH violation of 0.05 at XY 72.95,31.4
+AR PTH violation of 0.05 at XY 73.8,31.4
+AR PTH violation of 0.05 at XY 75.5,31.4
+AR PTH violation of 0.05 at XY 71.25,31.4
+AR PTH violation of 0.05 at XY 70.4,31.4
+AR PTH violation of 0.05 at XY 69.55,31.4
+AR PTH violation of 0.05 at XY 72.1,31.4
+TH PADS that Pass = 166; Fails = 32
+NPTH PADS that Pass = 0; Fails = 0

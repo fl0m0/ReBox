@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name larson-scanner)(type Legacy)(uri "D:/Eigene Dateien/Bastelprojekte/RC-Beleuchtung/pcb/larson-scanner_v1.0/libs/larson-scanner.lib")(options "")(descr ""))
+  (lib (name rc-lights)(type Legacy)(uri "D:/Eigene Dateien/Bastelprojekte/RC-Beleuchtung/pcb/rc-lights_v1.0/libs/rc-lights.lib")(options "")(descr ""))
+  (lib (name ReBox_A1-rescue)(type Legacy)(uri ${KIPRJMOD}/ReBox_A1-rescue.lib)(options "")(descr ""))
+)

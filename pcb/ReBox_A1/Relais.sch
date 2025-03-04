@@ -1,0 +1,1720 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Relay_User:JW1aFSN-DC5V-F RL301
+U 1 1 61BF7F3F
+P 4150 1900
+F 0 "RL301" V 3700 1850 50  0000 L CNN
+F 1 "JW1aFSN-DC5V-F" V 4500 1550 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPST_Panasonic_JW1_FormA" H 4500 1800 50  0001 L CNN
+F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok" H 4350 1900 50  0001 L CNN
+F 4 "Panasonic" H 4500 1700 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 4500 1600 50  0001 L CNN "Supplier 1"
+F 6 "255-3442-ND" H 4500 1500 50  0001 L CNN "SPN"
+	1    4150 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0313
+U 1 1 61BFABFC
+P 4700 1700
+F 0 "#PWR0313" H 4700 1550 50  0001 C CNN
+F 1 "+5V" H 4715 1873 50  0000 C CNN
+F 2 "" H 4700 1700 50  0001 C CNN
+F 3 "" H 4700 1700 50  0001 C CNN
+	1    4700 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1700 4600 1700
+Wire Wire Line
+	4450 2100 5100 2100
+Text Label 4700 2100 0    50   ~ 0
+Vout1
+Text Label 3550 2100 0    50   ~ 0
+Vin1
+$Comp
+L Relay_User:JW1aFSN-DC5V-F RL302
+U 1 1 61C663AE
+P 4150 3400
+F 0 "RL302" V 3700 3350 50  0000 L CNN
+F 1 "JW1aFSN-DC5V-F" V 4500 3050 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPST_Panasonic_JW1_FormA" H 4500 3300 50  0001 L CNN
+F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok" H 4350 3400 50  0001 L CNN
+F 4 "Panasonic" H 4500 3200 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 4500 3100 50  0001 L CNN "Supplier 1"
+F 6 "255-3442-ND" H 4500 3000 50  0001 L CNN "SPN"
+	1    4150 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0314
+U 1 1 61C663B4
+P 4700 3200
+F 0 "#PWR0314" H 4700 3050 50  0001 C CNN
+F 1 "+5V" H 4715 3373 50  0000 C CNN
+F 2 "" H 4700 3200 50  0001 C CNN
+F 3 "" H 4700 3200 50  0001 C CNN
+	1    4700 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3200 4600 3200
+Wire Wire Line
+	4450 3600 5100 3600
+Text Label 4700 3600 0    50   ~ 0
+Vout2
+Text Label 3550 3600 0    50   ~ 0
+Vin2
+$Comp
+L Relay_User:JW1aFSN-DC5V-F RL303
+U 1 1 61C68C19
+P 4150 5250
+F 0 "RL303" V 3700 5200 50  0000 L CNN
+F 1 "JW1aFSN-DC5V-F" V 4500 4900 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPST_Panasonic_JW1_FormA" H 4500 5150 50  0001 L CNN
+F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok" H 4350 5250 50  0001 L CNN
+F 4 "Panasonic" H 4500 5050 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 4500 4950 50  0001 L CNN "Supplier 1"
+F 6 "255-3442-ND" H 4500 4850 50  0001 L CNN "SPN"
+	1    4150 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0315
+U 1 1 61C68C1F
+P 4700 5050
+F 0 "#PWR0315" H 4700 4900 50  0001 C CNN
+F 1 "+5V" H 4715 5223 50  0000 C CNN
+F 2 "" H 4700 5050 50  0001 C CNN
+F 3 "" H 4700 5050 50  0001 C CNN
+	1    4700 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 5050 4600 5050
+Wire Wire Line
+	4450 5450 5100 5450
+Text Label 4700 5450 0    50   ~ 0
+Vout3
+Text Label 3550 5450 0    50   ~ 0
+Vin3
+Wire Wire Line
+	5100 2200 5100 2100
+Wire Wire Line
+	5100 3700 5100 3600
+Text Label 1100 2550 0    50   ~ 0
+RLY1_CTRL
+Wire Wire Line
+	3500 5550 3500 5450
+Wire Wire Line
+	3500 3700 3500 3600
+Wire Wire Line
+	3500 2200 3500 2100
+Wire Wire Line
+	5100 5550 5100 5450
+$Comp
+L power:GND #PWR0310
+U 1 1 61C74C0F
+P 2550 2900
+F 0 "#PWR0310" H 2550 2650 50  0001 C CNN
+F 1 "GND" H 2555 2727 50  0000 C CNN
+F 2 "" H 2550 2900 50  0001 C CNN
+F 3 "" H 2550 2900 50  0001 C CNN
+	1    2550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:10k,0603 R304
+U 1 1 61C7848C
+P 1550 2750
+F 0 "R304" H 1609 2796 50  0000 L CNN
+F 1 "10k,0603" H 1400 2250 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1650 2350 50  0001 C CNN
+F 3 "~" H 1550 2750 50  0001 C CNN
+F 4 "10k, 0603" H 1609 2705 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,1W" H 1650 2700 50  0001 L CNN "Info"
+	1    1550 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2550 1550 2600
+$Comp
+L power:GND #PWR0304
+U 1 1 61C7A587
+P 1550 2900
+F 0 "#PWR0304" H 1550 2650 50  0001 C CNN
+F 1 "GND" H 1555 2727 50  0000 C CNN
+F 2 "" H 1550 2900 50  0001 C CNN
+F 3 "" H 1550 2900 50  0001 C CNN
+	1    1550 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2550 1050 2550
+Connection ~ 1550 2550
+Text Label 3250 1700 0    50   ~ 0
+RLY1_COIL
+Text Label 1100 4050 0    50   ~ 0
+RLY2_CTRL
+Text Label 1100 5900 0    50   ~ 0
+RLY3_CTRL
+Wire Wire Line
+	4600 1300 4600 1700
+Connection ~ 4600 1700
+Wire Wire Line
+	4600 1700 4450 1700
+Wire Wire Line
+	4600 3200 4600 2800
+Connection ~ 4600 3200
+Wire Wire Line
+	4600 3200 4450 3200
+Wire Wire Line
+	4600 5050 4600 4650
+Connection ~ 4600 5050
+Wire Wire Line
+	4600 5050 4450 5050
+Text Label 3250 3200 0    50   ~ 0
+RLY2_COIL
+Text Label 3250 5050 0    50   ~ 0
+RLY3_COIL
+Wire Wire Line
+	3850 2100 3500 2100
+Wire Wire Line
+	3500 3600 3850 3600
+Wire Wire Line
+	3850 5450 3500 5450
+Text HLabel 1000 5250 0    50   Input ~ 0
+RLY3_CTRL
+Text HLabel 1000 3400 0    50   Input ~ 0
+RLY2_CTRL
+Text HLabel 1000 1900 0    50   Input ~ 0
+RLY1_CTRL
+$Comp
+L Relay_User:JW1aFSN-DC5V-F RL304
+U 1 1 61EC0815
+P 9350 1900
+F 0 "RL304" V 8900 1850 50  0000 L CNN
+F 1 "JW1aFSN-DC5V-F" V 9700 1550 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPST_Panasonic_JW1_FormA" H 9700 1800 50  0001 L CNN
+F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok" H 9550 1900 50  0001 L CNN
+F 4 "Panasonic" H 9700 1700 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 9700 1600 50  0001 L CNN "Supplier 1"
+F 6 "255-3442-ND" H 9700 1500 50  0001 L CNN "SPN"
+	1    9350 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0328
+U 1 1 61EC081B
+P 9900 1700
+F 0 "#PWR0328" H 9900 1550 50  0001 C CNN
+F 1 "+5V" H 9915 1873 50  0000 C CNN
+F 2 "" H 9900 1700 50  0001 C CNN
+F 3 "" H 9900 1700 50  0001 C CNN
+	1    9900 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 1700 9800 1700
+Wire Wire Line
+	9650 2100 10300 2100
+Text Label 9900 2100 0    50   ~ 0
+Vout4
+Text Label 8700 2100 0    50   ~ 0
+Vin4
+$Comp
+L Relay_User:JW1aFSN-DC5V-F RL305
+U 1 1 61EC0828
+P 9350 3400
+F 0 "RL305" V 8900 3350 50  0000 L CNN
+F 1 "JW1aFSN-DC5V-F" V 9700 3050 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPST_Panasonic_JW1_FormA" H 9700 3300 50  0001 L CNN
+F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok" H 9550 3400 50  0001 L CNN
+F 4 "Panasonic" H 9700 3200 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 9700 3100 50  0001 L CNN "Supplier 1"
+F 6 "255-3442-ND" H 9700 3000 50  0001 L CNN "SPN"
+	1    9350 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0329
+U 1 1 61EC082E
+P 9900 3200
+F 0 "#PWR0329" H 9900 3050 50  0001 C CNN
+F 1 "+5V" H 9915 3373 50  0000 C CNN
+F 2 "" H 9900 3200 50  0001 C CNN
+F 3 "" H 9900 3200 50  0001 C CNN
+	1    9900 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 3200 9800 3200
+Wire Wire Line
+	9650 3600 10300 3600
+Text Label 9900 3600 0    50   ~ 0
+Vout5
+Text Label 8700 3600 0    50   ~ 0
+Vin55
+$Comp
+L Relay_User:JW1aFSN-DC5V-F RL306
+U 1 1 61EC083B
+P 9350 5250
+F 0 "RL306" V 8900 5200 50  0000 L CNN
+F 1 "JW1aFSN-DC5V-F" V 9700 4900 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPST_Panasonic_JW1_FormA" H 9700 5150 50  0001 L CNN
+F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok" H 9550 5250 50  0001 L CNN
+F 4 "Panasonic" H 9700 5050 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 9700 4950 50  0001 L CNN "Supplier 1"
+F 6 "255-3442-ND" H 9700 4850 50  0001 L CNN "SPN"
+	1    9350 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0330
+U 1 1 61EC0841
+P 9900 5050
+F 0 "#PWR0330" H 9900 4900 50  0001 C CNN
+F 1 "+5V" H 9915 5223 50  0000 C CNN
+F 2 "" H 9900 5050 50  0001 C CNN
+F 3 "" H 9900 5050 50  0001 C CNN
+	1    9900 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 5050 9800 5050
+Wire Wire Line
+	9650 5450 10300 5450
+Text Label 9900 5450 0    50   ~ 0
+Vout6
+Text Label 8650 5450 0    50   ~ 0
+Vin6
+Wire Wire Line
+	10300 2200 10300 2100
+Wire Wire Line
+	10300 3700 10300 3600
+Text Label 6300 2550 0    50   ~ 0
+RLY4_CTRL
+Wire Wire Line
+	8600 5550 8600 5450
+Wire Wire Line
+	8650 2200 8650 2100
+Wire Wire Line
+	10300 5550 10300 5450
+Text Label 8450 1700 0    50   ~ 0
+RLY4_COIL
+Text Label 6300 4050 0    50   ~ 0
+RLY5_CTRL
+Text Label 6300 5900 0    50   ~ 0
+RLY6_CTRL
+Wire Wire Line
+	9800 1300 9800 1700
+Connection ~ 9800 1700
+Wire Wire Line
+	9800 1700 9650 1700
+Wire Wire Line
+	8900 1300 8900 1700
+Wire Wire Line
+	8900 1700 9050 1700
+Wire Wire Line
+	9800 3200 9800 2800
+Connection ~ 9800 3200
+Wire Wire Line
+	9800 3200 9650 3200
+Wire Wire Line
+	9800 5050 9800 4650
+Connection ~ 9800 5050
+Wire Wire Line
+	9800 5050 9650 5050
+Text Label 8450 3200 0    50   ~ 0
+RLY5_COIL
+Text Label 8450 5050 0    50   ~ 0
+RLY6_COIL
+Wire Wire Line
+	9050 2100 8650 2100
+Wire Wire Line
+	8650 3600 9050 3600
+Wire Wire Line
+	9050 5450 8600 5450
+Text HLabel 6200 1900 0    50   Input ~ 0
+RLY4_CTRL
+Text HLabel 6200 3400 0    50   Input ~ 0
+RLY5_CTRL
+Text HLabel 6200 5250 0    50   Input ~ 0
+RLY6_CTRL
+$Comp
+L Transistor_FET_User:BSH103,xxx Q301
+U 1 1 61C8FC26
+P 1850 1900
+F 0 "Q301" H 2054 1946 50  0000 L CNN
+F 1 "BSH103,xxx" H 2054 1855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-23_Handsoldering" H 2050 1825 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSH103.pdf" H 1850 1900 50  0001 L CNN
+F 4 "Nexperia" H 2050 1700 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 2050 1600 50  0001 L CNN "Supplier"
+F 6 "1727-4319-1-ND" H 2400 1600 50  0001 L CNN "SPN"
+	1    1850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET_User:BSH103,xxx Q304
+U 1 1 61CAFDF8
+P 2450 2550
+F 0 "Q304" H 2654 2596 50  0000 L CNN
+F 1 "BSH103,xxx" H 2654 2505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-23_Handsoldering" H 2650 2475 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSH103.pdf" H 2450 2550 50  0001 L CNN
+F 4 "Nexperia" H 2650 2350 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 2650 2250 50  0001 L CNN "Supplier"
+F 6 "1727-4319-1-ND" H 3000 2250 50  0001 L CNN "SPN"
+	1    2450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:330k,0603 R301
+U 1 1 61CBAD9E
+P 1350 2100
+F 0 "R301" H 1409 2146 50  0000 L CNN
+F 1 "330k,0603" H 1200 1600 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1450 1700 50  0001 C CNN
+F 3 "~" H 1350 2100 50  0001 C CNN
+F 4 "330k, 0603" H 1409 2055 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,1W" H 1450 2050 50  0001 L CNN "Info"
+	1    1350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 1950 1350 1900
+Wire Wire Line
+	1350 1900 1650 1900
+$Comp
+L power:GND #PWR0301
+U 1 1 61CD4AAE
+P 1350 2250
+F 0 "#PWR0301" H 1350 2000 50  0001 C CNN
+F 1 "GND" H 1355 2077 50  0000 C CNN
+F 2 "" H 1350 2250 50  0001 C CNN
+F 3 "" H 1350 2250 50  0001 C CNN
+	1    1350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0307
+U 1 1 61CEEC93
+P 1950 2100
+F 0 "#PWR0307" H 1950 1850 50  0001 C CNN
+F 1 "GND" H 1955 1927 50  0000 C CNN
+F 2 "" H 1950 2100 50  0001 C CNN
+F 3 "" H 1950 2100 50  0001 C CNN
+	1    1950 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2550 2250 2550
+$Comp
+L power:GND #PWR0311
+U 1 1 61CA57D7
+P 2550 4300
+F 0 "#PWR0311" H 2550 4050 50  0001 C CNN
+F 1 "GND" H 2555 4127 50  0000 C CNN
+F 2 "" H 2550 4300 50  0001 C CNN
+F 3 "" H 2550 4300 50  0001 C CNN
+	1    2550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:10k,0603 R305
+U 1 1 61CA57DF
+P 1550 4200
+F 0 "R305" H 1609 4246 50  0000 L CNN
+F 1 "10k,0603" H 1400 3700 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1650 3800 50  0001 C CNN
+F 3 "~" H 1550 4200 50  0001 C CNN
+F 4 "10k, 0603" H 1609 4155 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,1W" H 1650 4150 50  0001 L CNN "Info"
+	1    1550 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 4050 1550 4100
+$Comp
+L power:GND #PWR0305
+U 1 1 61CA57E6
+P 1550 4300
+F 0 "#PWR0305" H 1550 4050 50  0001 C CNN
+F 1 "GND" H 1555 4127 50  0000 C CNN
+F 2 "" H 1550 4300 50  0001 C CNN
+F 3 "" H 1550 4300 50  0001 C CNN
+	1    1550 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 4050 1050 4050
+Connection ~ 1550 4050
+$Comp
+L Transistor_FET_User:BSH103,xxx Q302
+U 1 1 61CA57F2
+P 1850 3400
+F 0 "Q302" H 2054 3446 50  0000 L CNN
+F 1 "BSH103,xxx" H 2054 3355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-23_Handsoldering" H 2050 3325 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSH103.pdf" H 1850 3400 50  0001 L CNN
+F 4 "Nexperia" H 2050 3200 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 2050 3100 50  0001 L CNN "Supplier"
+F 6 "1727-4319-1-ND" H 2400 3100 50  0001 L CNN "SPN"
+	1    1850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:47R,1206 R308
+U 1 1 61CA57FA
+P 2550 3600
+F 0 "R308" H 2609 3691 50  0000 L CNN
+F 1 "47R,1206" H 2400 3100 50  0001 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2650 3200 50  0001 C CNN
+F 3 "~" H 2550 3600 50  0001 C CNN
+F 4 "47R, 1206" H 2609 3600 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,5W" H 2609 3509 50  0000 L CNN "Info"
+	1    2550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET_User:BSH103,xxx Q305
+U 1 1 61CA5803
+P 2450 4050
+F 0 "Q305" H 2654 4096 50  0000 L CNN
+F 1 "BSH103,xxx" H 2654 4005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-23_Handsoldering" H 2650 3975 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSH103.pdf" H 2450 4050 50  0001 L CNN
+F 4 "Nexperia" H 2650 3850 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 2650 3750 50  0001 L CNN "Supplier"
+F 6 "1727-4319-1-ND" H 3000 3750 50  0001 L CNN "SPN"
+	1    2450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:330k,0603 R302
+U 1 1 61CA5812
+P 1350 3600
+F 0 "R302" H 1409 3646 50  0000 L CNN
+F 1 "330k,0603" H 1200 3100 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1450 3200 50  0001 C CNN
+F 3 "~" H 1350 3600 50  0001 C CNN
+F 4 "330k, 0603" H 1409 3555 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,1W" H 1450 3550 50  0001 L CNN "Info"
+	1    1350 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 3450 1350 3400
+Wire Wire Line
+	1350 3400 1650 3400
+$Comp
+L power:GND #PWR0302
+U 1 1 61CA581B
+P 1350 3750
+F 0 "#PWR0302" H 1350 3500 50  0001 C CNN
+F 1 "GND" H 1355 3577 50  0000 C CNN
+F 2 "" H 1350 3750 50  0001 C CNN
+F 3 "" H 1350 3750 50  0001 C CNN
+	1    1350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0308
+U 1 1 61CA5822
+P 1950 3600
+F 0 "#PWR0308" H 1950 3350 50  0001 C CNN
+F 1 "GND" H 1955 3427 50  0000 C CNN
+F 2 "" H 1950 3600 50  0001 C CNN
+F 3 "" H 1950 3600 50  0001 C CNN
+	1    1950 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 4050 2250 4050
+Wire Wire Line
+	2550 4300 2550 4250
+$Comp
+L power:GND #PWR0312
+U 1 1 61CAD00A
+P 2550 6250
+F 0 "#PWR0312" H 2550 6000 50  0001 C CNN
+F 1 "GND" H 2555 6077 50  0000 C CNN
+F 2 "" H 2550 6250 50  0001 C CNN
+F 3 "" H 2550 6250 50  0001 C CNN
+	1    2550 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:10k,0603 R306
+U 1 1 61CAD012
+P 1550 6100
+F 0 "R306" H 1609 6146 50  0000 L CNN
+F 1 "10k,0603" H 1400 5600 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1650 5700 50  0001 C CNN
+F 3 "~" H 1550 6100 50  0001 C CNN
+F 4 "10k, 0603" H 1609 6055 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,1W" H 1650 6050 50  0001 L CNN "Info"
+	1    1550 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 5900 1550 5950
+$Comp
+L power:GND #PWR0306
+U 1 1 61CAD019
+P 1550 6250
+F 0 "#PWR0306" H 1550 6000 50  0001 C CNN
+F 1 "GND" H 1555 6077 50  0000 C CNN
+F 2 "" H 1550 6250 50  0001 C CNN
+F 3 "" H 1550 6250 50  0001 C CNN
+	1    1550 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 5900 1050 5900
+Connection ~ 1550 5900
+$Comp
+L Transistor_FET_User:BSH103,xxx Q303
+U 1 1 61CAD025
+P 1850 5250
+F 0 "Q303" H 2054 5296 50  0000 L CNN
+F 1 "BSH103,xxx" H 2054 5205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-23_Handsoldering" H 2050 5175 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSH103.pdf" H 1850 5250 50  0001 L CNN
+F 4 "Nexperia" H 2050 5050 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 2050 4950 50  0001 L CNN "Supplier"
+F 6 "1727-4319-1-ND" H 2400 4950 50  0001 L CNN "SPN"
+	1    1850 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:47R,1206 R309
+U 1 1 61CAD02D
+P 2550 5450
+F 0 "R309" H 2609 5541 50  0000 L CNN
+F 1 "47R,1206" H 2400 4950 50  0001 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2650 5050 50  0001 C CNN
+F 3 "~" H 2550 5450 50  0001 C CNN
+F 4 "47R, 1206" H 2609 5450 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,5W" H 2609 5359 50  0000 L CNN "Info"
+	1    2550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET_User:BSH103,xxx Q306
+U 1 1 61CAD036
+P 2450 5900
+F 0 "Q306" H 2654 5946 50  0000 L CNN
+F 1 "BSH103,xxx" H 2654 5855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-23_Handsoldering" H 2650 5825 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSH103.pdf" H 2450 5900 50  0001 L CNN
+F 4 "Nexperia" H 2650 5700 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 2650 5600 50  0001 L CNN "Supplier"
+F 6 "1727-4319-1-ND" H 3000 5600 50  0001 L CNN "SPN"
+	1    2450 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:330k,0603 R303
+U 1 1 61CAD045
+P 1350 5450
+F 0 "R303" H 1409 5496 50  0000 L CNN
+F 1 "330k,0603" H 1200 4950 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1450 5050 50  0001 C CNN
+F 3 "~" H 1350 5450 50  0001 C CNN
+F 4 "330k, 0603" H 1409 5405 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,1W" H 1450 5400 50  0001 L CNN "Info"
+	1    1350 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 5300 1350 5250
+Wire Wire Line
+	1350 5250 1650 5250
+$Comp
+L power:GND #PWR0303
+U 1 1 61CAD04E
+P 1350 5600
+F 0 "#PWR0303" H 1350 5350 50  0001 C CNN
+F 1 "GND" H 1355 5427 50  0000 C CNN
+F 2 "" H 1350 5600 50  0001 C CNN
+F 3 "" H 1350 5600 50  0001 C CNN
+	1    1350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0309
+U 1 1 61CAD055
+P 1950 5450
+F 0 "#PWR0309" H 1950 5200 50  0001 C CNN
+F 1 "GND" H 1955 5277 50  0000 C CNN
+F 2 "" H 1950 5450 50  0001 C CNN
+F 3 "" H 1950 5450 50  0001 C CNN
+	1    1950 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 5900 2250 5900
+Wire Wire Line
+	2550 6250 2550 6100
+$Comp
+L power:GND #PWR0325
+U 1 1 61CD87CF
+P 7750 2900
+F 0 "#PWR0325" H 7750 2650 50  0001 C CNN
+F 1 "GND" H 7755 2727 50  0000 C CNN
+F 2 "" H 7750 2900 50  0001 C CNN
+F 3 "" H 7750 2900 50  0001 C CNN
+	1    7750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:10k,0603 R313
+U 1 1 61CD87D7
+P 6750 2750
+F 0 "R313" H 6809 2796 50  0000 L CNN
+F 1 "10k,0603" H 6600 2250 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6850 2350 50  0001 C CNN
+F 3 "~" H 6750 2750 50  0001 C CNN
+F 4 "10k, 0603" H 6809 2705 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,1W" H 6850 2700 50  0001 L CNN "Info"
+	1    6750 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2550 6750 2600
+$Comp
+L power:GND #PWR0319
+U 1 1 61CD87DE
+P 6750 2900
+F 0 "#PWR0319" H 6750 2650 50  0001 C CNN
+F 1 "GND" H 6755 2727 50  0000 C CNN
+F 2 "" H 6750 2900 50  0001 C CNN
+F 3 "" H 6750 2900 50  0001 C CNN
+	1    6750 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2550 6250 2550
+Connection ~ 6750 2550
+$Comp
+L Transistor_FET_User:BSH103,xxx Q307
+U 1 1 61CD87EA
+P 7050 1900
+F 0 "Q307" H 7254 1946 50  0000 L CNN
+F 1 "BSH103,xxx" H 7254 1855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-23_Handsoldering" H 7250 1825 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSH103.pdf" H 7050 1900 50  0001 L CNN
+F 4 "Nexperia" H 7250 1700 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 7250 1600 50  0001 L CNN "Supplier"
+F 6 "1727-4319-1-ND" H 7600 1600 50  0001 L CNN "SPN"
+	1    7050 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:47R,1206 R316
+U 1 1 61CD87F2
+P 7750 2100
+F 0 "R316" H 7809 2191 50  0000 L CNN
+F 1 "47R,1206" H 7600 1600 50  0001 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7850 1700 50  0001 C CNN
+F 3 "~" H 7750 2100 50  0001 C CNN
+F 4 "47R, 1206" H 7809 2100 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,5W" H 7809 2009 50  0000 L CNN "Info"
+	1    7750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET_User:BSH103,xxx Q310
+U 1 1 61CD87FB
+P 7650 2550
+F 0 "Q310" H 7854 2596 50  0000 L CNN
+F 1 "BSH103,xxx" H 7854 2505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-23_Handsoldering" H 7850 2475 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSH103.pdf" H 7650 2550 50  0001 L CNN
+F 4 "Nexperia" H 7850 2350 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 7850 2250 50  0001 L CNN "Supplier"
+F 6 "1727-4319-1-ND" H 8200 2250 50  0001 L CNN "SPN"
+	1    7650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:330k,0603 R310
+U 1 1 61CD880A
+P 6550 2100
+F 0 "R310" H 6609 2146 50  0000 L CNN
+F 1 "330k,0603" H 6400 1600 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6650 1700 50  0001 C CNN
+F 3 "~" H 6550 2100 50  0001 C CNN
+F 4 "330k, 0603" H 6609 2055 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,1W" H 6650 2050 50  0001 L CNN "Info"
+	1    6550 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1950 6550 1900
+Wire Wire Line
+	6550 1900 6850 1900
+$Comp
+L power:GND #PWR0316
+U 1 1 61CD8813
+P 6550 2250
+F 0 "#PWR0316" H 6550 2000 50  0001 C CNN
+F 1 "GND" H 6555 2077 50  0000 C CNN
+F 2 "" H 6550 2250 50  0001 C CNN
+F 3 "" H 6550 2250 50  0001 C CNN
+	1    6550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0322
+U 1 1 61CD881A
+P 7150 2100
+F 0 "#PWR0322" H 7150 1850 50  0001 C CNN
+F 1 "GND" H 7155 1927 50  0000 C CNN
+F 2 "" H 7150 2100 50  0001 C CNN
+F 3 "" H 7150 2100 50  0001 C CNN
+	1    7150 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2550 7450 2550
+Wire Wire Line
+	7750 2900 7750 2750
+$Comp
+L power:GND #PWR0326
+U 1 1 61CE1341
+P 7750 4400
+F 0 "#PWR0326" H 7750 4150 50  0001 C CNN
+F 1 "GND" H 7755 4227 50  0000 C CNN
+F 2 "" H 7750 4400 50  0001 C CNN
+F 3 "" H 7750 4400 50  0001 C CNN
+	1    7750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:10k,0603 R314
+U 1 1 61CE1349
+P 6750 4250
+F 0 "R314" H 6809 4296 50  0000 L CNN
+F 1 "10k,0603" H 6600 3750 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6850 3850 50  0001 C CNN
+F 3 "~" H 6750 4250 50  0001 C CNN
+F 4 "10k, 0603" H 6809 4205 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,1W" H 6850 4200 50  0001 L CNN "Info"
+	1    6750 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4050 6750 4100
+$Comp
+L power:GND #PWR0320
+U 1 1 61CE1350
+P 6750 4400
+F 0 "#PWR0320" H 6750 4150 50  0001 C CNN
+F 1 "GND" H 6755 4227 50  0000 C CNN
+F 2 "" H 6750 4400 50  0001 C CNN
+F 3 "" H 6750 4400 50  0001 C CNN
+	1    6750 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4050 6250 4050
+Connection ~ 6750 4050
+$Comp
+L Transistor_FET_User:BSH103,xxx Q308
+U 1 1 61CE135C
+P 7050 3400
+F 0 "Q308" H 7254 3446 50  0000 L CNN
+F 1 "BSH103,xxx" H 7254 3355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-23_Handsoldering" H 7250 3325 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSH103.pdf" H 7050 3400 50  0001 L CNN
+F 4 "Nexperia" H 7250 3200 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 7250 3100 50  0001 L CNN "Supplier"
+F 6 "1727-4319-1-ND" H 7600 3100 50  0001 L CNN "SPN"
+	1    7050 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:47R,1206 R317
+U 1 1 61CE1364
+P 7750 3600
+F 0 "R317" H 7809 3691 50  0000 L CNN
+F 1 "47R,1206" H 7600 3100 50  0001 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7850 3200 50  0001 C CNN
+F 3 "~" H 7750 3600 50  0001 C CNN
+F 4 "47R, 1206" H 7809 3600 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,5W" H 7809 3509 50  0000 L CNN "Info"
+	1    7750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:330k,0603 R311
+U 1 1 61CE137C
+P 6550 3600
+F 0 "R311" H 6609 3646 50  0000 L CNN
+F 1 "330k,0603" H 6400 3100 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6650 3200 50  0001 C CNN
+F 3 "~" H 6550 3600 50  0001 C CNN
+F 4 "330k, 0603" H 6609 3555 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,1W" H 6650 3550 50  0001 L CNN "Info"
+	1    6550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3450 6550 3400
+Wire Wire Line
+	6550 3400 6850 3400
+$Comp
+L power:GND #PWR0317
+U 1 1 61CE1385
+P 6550 3750
+F 0 "#PWR0317" H 6550 3500 50  0001 C CNN
+F 1 "GND" H 6555 3577 50  0000 C CNN
+F 2 "" H 6550 3750 50  0001 C CNN
+F 3 "" H 6550 3750 50  0001 C CNN
+	1    6550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0323
+U 1 1 61CE138C
+P 7150 3600
+F 0 "#PWR0323" H 7150 3350 50  0001 C CNN
+F 1 "GND" H 7155 3427 50  0000 C CNN
+F 2 "" H 7150 3600 50  0001 C CNN
+F 3 "" H 7150 3600 50  0001 C CNN
+	1    7150 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4050 7450 4050
+Wire Wire Line
+	7750 4400 7750 4250
+$Comp
+L power:GND #PWR0327
+U 1 1 61CE8FBC
+P 7750 6250
+F 0 "#PWR0327" H 7750 6000 50  0001 C CNN
+F 1 "GND" H 7755 6077 50  0000 C CNN
+F 2 "" H 7750 6250 50  0001 C CNN
+F 3 "" H 7750 6250 50  0001 C CNN
+	1    7750 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:10k,0603 R315
+U 1 1 61CE8FC4
+P 6750 6100
+F 0 "R315" H 6809 6146 50  0000 L CNN
+F 1 "10k,0603" H 6600 5600 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6850 5700 50  0001 C CNN
+F 3 "~" H 6750 6100 50  0001 C CNN
+F 4 "10k, 0603" H 6809 6055 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,1W" H 6850 6050 50  0001 L CNN "Info"
+	1    6750 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 5900 6750 5950
+$Comp
+L power:GND #PWR0321
+U 1 1 61CE8FCB
+P 6750 6250
+F 0 "#PWR0321" H 6750 6000 50  0001 C CNN
+F 1 "GND" H 6755 6077 50  0000 C CNN
+F 2 "" H 6750 6250 50  0001 C CNN
+F 3 "" H 6750 6250 50  0001 C CNN
+	1    6750 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 5900 6250 5900
+Connection ~ 6750 5900
+$Comp
+L Transistor_FET_User:BSH103,xxx Q309
+U 1 1 61CE8FD7
+P 7050 5250
+F 0 "Q309" H 7254 5296 50  0000 L CNN
+F 1 "BSH103,xxx" H 7254 5205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-23_Handsoldering" H 7250 5175 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSH103.pdf" H 7050 5250 50  0001 L CNN
+F 4 "Nexperia" H 7250 5050 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 7250 4950 50  0001 L CNN "Supplier"
+F 6 "1727-4319-1-ND" H 7600 4950 50  0001 L CNN "SPN"
+	1    7050 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:47R,1206 R318
+U 1 1 61CE8FDF
+P 7750 5400
+F 0 "R318" H 7809 5491 50  0000 L CNN
+F 1 "47R,1206" H 7600 4900 50  0001 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7850 5000 50  0001 C CNN
+F 3 "~" H 7750 5400 50  0001 C CNN
+F 4 "47R, 1206" H 7809 5400 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,5W" H 7809 5309 50  0000 L CNN "Info"
+	1    7750 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET_User:BSH103,xxx Q312
+U 1 1 61CE8FE8
+P 7650 5900
+F 0 "Q312" H 7854 5946 50  0000 L CNN
+F 1 "BSH103,xxx" H 7854 5855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-23_Handsoldering" H 7850 5825 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSH103.pdf" H 7650 5900 50  0001 L CNN
+F 4 "Nexperia" H 7850 5700 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 7850 5600 50  0001 L CNN "Supplier"
+F 6 "1727-4319-1-ND" H 8200 5600 50  0001 L CNN "SPN"
+	1    7650 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_User:330k,0603 R312
+U 1 1 61CE8FF7
+P 6550 5450
+F 0 "R312" H 6609 5496 50  0000 L CNN
+F 1 "330k,0603" H 6400 4950 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6650 5050 50  0001 C CNN
+F 3 "~" H 6550 5450 50  0001 C CNN
+F 4 "330k, 0603" H 6609 5405 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,1W" H 6650 5400 50  0001 L CNN "Info"
+	1    6550 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 5300 6550 5250
+Wire Wire Line
+	6550 5250 6850 5250
+$Comp
+L power:GND #PWR0318
+U 1 1 61CE9000
+P 6550 5600
+F 0 "#PWR0318" H 6550 5350 50  0001 C CNN
+F 1 "GND" H 6555 5427 50  0000 C CNN
+F 2 "" H 6550 5600 50  0001 C CNN
+F 3 "" H 6550 5600 50  0001 C CNN
+	1    6550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0324
+U 1 1 61CE9007
+P 7150 5450
+F 0 "#PWR0324" H 7150 5200 50  0001 C CNN
+F 1 "GND" H 7155 5277 50  0000 C CNN
+F 2 "" H 7150 5450 50  0001 C CNN
+F 3 "" H 7150 5450 50  0001 C CNN
+	1    7150 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 5900 7450 5900
+Wire Wire Line
+	7750 6250 7750 6100
+$Comp
+L Diode_User:BZX84C12-7-F D304
+U 1 1 61CFC081
+P 4450 1300
+F 0 "D304" H 4450 1517 50  0000 C CNN
+F 1 "BZX84C12-7-F" H 4450 1426 50  0000 C CNN
+F 2 "Diode_SMD_User:D_SOT-23_ANK_Handsoldering" H 4450 1125 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18001.pdf" H 4450 1300 50  0001 C CNN
+F 4 "Diodes Incorporated" H 4100 1000 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 4050 900 50  0001 L CNN "Supplier"
+F 6 "BZX84C12-FDICT-ND" H 4450 900 50  0001 L CNN "SPN"
+	1    4450 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode_User:BZX84C12-7-F D305
+U 1 1 61D21760
+P 4450 2800
+F 0 "D305" H 4450 3017 50  0000 C CNN
+F 1 "BZX84C12-7-F" H 4450 2926 50  0000 C CNN
+F 2 "Diode_SMD_User:D_SOT-23_ANK_Handsoldering" H 4450 2625 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18001.pdf" H 4450 2800 50  0001 C CNN
+F 4 "Diodes Incorporated" H 4100 2500 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 4050 2400 50  0001 L CNN "Supplier"
+F 6 "BZX84C12-FDICT-ND" H 4450 2400 50  0001 L CNN "SPN"
+	1    4450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode_User:BZX84C12-7-F D306
+U 1 1 61D222B8
+P 4450 4650
+F 0 "D306" H 4450 4867 50  0000 C CNN
+F 1 "BZX84C12-7-F" H 4450 4776 50  0000 C CNN
+F 2 "Diode_SMD_User:D_SOT-23_ANK_Handsoldering" H 4450 4475 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18001.pdf" H 4450 4650 50  0001 C CNN
+F 4 "Diodes Incorporated" H 4100 4350 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 4050 4250 50  0001 L CNN "Supplier"
+F 6 "BZX84C12-FDICT-ND" H 4450 4250 50  0001 L CNN "SPN"
+	1    4450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode_User:BZX84C12-7-F D312
+U 1 1 61D231B1
+P 9650 4650
+F 0 "D312" H 9650 4867 50  0000 C CNN
+F 1 "BZX84C12-7-F" H 9650 4776 50  0000 C CNN
+F 2 "Diode_SMD_User:D_SOT-23_ANK_Handsoldering" H 9650 4475 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18001.pdf" H 9650 4650 50  0001 C CNN
+F 4 "Diodes Incorporated" H 9300 4350 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 9250 4250 50  0001 L CNN "Supplier"
+F 6 "BZX84C12-FDICT-ND" H 9650 4250 50  0001 L CNN "SPN"
+	1    9650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode_User:BZX84C12-7-F D311
+U 1 1 61D24116
+P 9650 2800
+F 0 "D311" H 9650 3017 50  0000 C CNN
+F 1 "BZX84C12-7-F" H 9650 2926 50  0000 C CNN
+F 2 "Diode_SMD_User:D_SOT-23_ANK_Handsoldering" H 9650 2625 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18001.pdf" H 9650 2800 50  0001 C CNN
+F 4 "Diodes Incorporated" H 9300 2500 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 9250 2400 50  0001 L CNN "Supplier"
+F 6 "BZX84C12-FDICT-ND" H 9650 2400 50  0001 L CNN "SPN"
+	1    9650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode_User:BZX84C12-7-F D310
+U 1 1 61D243B7
+P 9650 1300
+F 0 "D310" H 9650 1517 50  0000 C CNN
+F 1 "BZX84C12-7-F" H 9650 1426 50  0000 C CNN
+F 2 "Diode_SMD_User:D_SOT-23_ANK_Handsoldering" H 9650 1125 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18001.pdf" H 9650 1300 50  0001 C CNN
+F 4 "Diodes Incorporated" H 9300 1000 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 9250 900 50  0001 L CNN "Supplier"
+F 6 "BZX84C12-FDICT-ND" H 9650 900 50  0001 L CNN "SPN"
+	1    9650 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 1300 9500 1300
+Connection ~ 8900 1700
+$Comp
+L Diode_User:BAT54W,xxx D308
+U 1 1 61D3E059
+P 9050 2800
+F 0 "D308" H 9050 2575 50  0000 C CNN
+F 1 "BAT54W,xxx" H 9050 2666 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-323_SC-70_Handsoldering" H 9050 2625 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf" H 9050 2800 50  0001 C CNN
+F 4 "Nexperia" H 9050 2250 50  0001 C CNN "Manufacturer"
+F 5 "Digi-Key" H 8800 2150 50  0001 C CNN "Supplier"
+F 6 "1727-3570-1-ND" H 9400 2150 50  0001 C CNN "SPN"
+	1    9050 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode_User:BAT54W,xxx D309
+U 1 1 61D3EA56
+P 9050 4650
+F 0 "D309" H 9050 4425 50  0000 C CNN
+F 1 "BAT54W,xxx" H 9050 4516 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-323_SC-70_Handsoldering" H 9050 4475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf" H 9050 4650 50  0001 C CNN
+F 4 "Nexperia" H 9050 4100 50  0001 C CNN "Manufacturer"
+F 5 "Digi-Key" H 8800 4000 50  0001 C CNN "Supplier"
+F 6 "1727-3570-1-ND" H 9400 4000 50  0001 C CNN "SPN"
+	1    9050 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9500 4650 9200 4650
+Wire Wire Line
+	8900 4650 8900 5050
+Connection ~ 8900 5050
+Wire Wire Line
+	8900 5050 9050 5050
+Wire Wire Line
+	8900 3200 8900 2800
+Connection ~ 8900 3200
+Wire Wire Line
+	8900 3200 9050 3200
+Wire Wire Line
+	9500 2800 9200 2800
+$Comp
+L Diode_User:BAT54W,xxx D307
+U 1 1 61D2BF4D
+P 9050 1300
+F 0 "D307" H 9050 1075 50  0000 C CNN
+F 1 "BAT54W,xxx" H 9050 1166 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-323_SC-70_Handsoldering" H 9050 1125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf" H 9050 1300 50  0001 C CNN
+F 4 "Nexperia" H 9050 750 50  0001 C CNN "Manufacturer"
+F 5 "Digi-Key" H 8800 650 50  0001 C CNN "Supplier"
+F 6 "1727-3570-1-ND" H 9400 650 50  0001 C CNN "SPN"
+	1    9050 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode_User:BAT54W,xxx D301
+U 1 1 61D5F008
+P 3850 1300
+F 0 "D301" H 3850 1075 50  0000 C CNN
+F 1 "BAT54W,xxx" H 3850 1166 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-323_SC-70_Handsoldering" H 3850 1125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf" H 3850 1300 50  0001 C CNN
+F 4 "Nexperia" H 3850 750 50  0001 C CNN "Manufacturer"
+F 5 "Digi-Key" H 3600 650 50  0001 C CNN "Supplier"
+F 6 "1727-3570-1-ND" H 4200 650 50  0001 C CNN "SPN"
+	1    3850 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode_User:BAT54W,xxx D302
+U 1 1 61D601EF
+P 3850 2800
+F 0 "D302" H 3850 2575 50  0000 C CNN
+F 1 "BAT54W,xxx" H 3850 2666 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-323_SC-70_Handsoldering" H 3850 2625 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf" H 3850 2800 50  0001 C CNN
+F 4 "Nexperia" H 3850 2250 50  0001 C CNN "Manufacturer"
+F 5 "Digi-Key" H 3600 2150 50  0001 C CNN "Supplier"
+F 6 "1727-3570-1-ND" H 4200 2150 50  0001 C CNN "SPN"
+	1    3850 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode_User:BAT54W,xxx D303
+U 1 1 61D60F07
+P 3850 4650
+F 0 "D303" H 3850 4425 50  0000 C CNN
+F 1 "BAT54W,xxx" H 3850 4516 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-323_SC-70_Handsoldering" H 3850 4475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf" H 3850 4650 50  0001 C CNN
+F 4 "Nexperia" H 3850 4100 50  0001 C CNN "Manufacturer"
+F 5 "Digi-Key" H 3600 4000 50  0001 C CNN "Supplier"
+F 6 "1727-3570-1-ND" H 4200 4000 50  0001 C CNN "SPN"
+	1    3850 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 4650 4000 4650
+Wire Wire Line
+	4000 1300 4300 1300
+Wire Wire Line
+	4000 2800 4300 2800
+Wire Wire Line
+	3700 1300 3700 1700
+Connection ~ 3700 1700
+Wire Wire Line
+	3700 1700 3850 1700
+Wire Wire Line
+	3700 2800 3700 3200
+Connection ~ 3700 3200
+Wire Wire Line
+	3700 3200 3850 3200
+Wire Wire Line
+	3700 5050 3700 4650
+Connection ~ 3700 5050
+Wire Wire Line
+	3700 5050 3850 5050
+Wire Wire Line
+	8650 3600 8650 3700
+Wire Wire Line
+	1000 1900 1050 1900
+Wire Wire Line
+	2550 2750 2550 2900
+Wire Wire Line
+	1950 1700 2550 1700
+Connection ~ 2550 1700
+Wire Wire Line
+	2550 1700 3700 1700
+Wire Wire Line
+	1050 1900 1050 2550
+Connection ~ 1050 1900
+Wire Wire Line
+	1050 1900 1150 1900
+Wire Wire Line
+	6200 5250 6250 5250
+Wire Wire Line
+	2550 2350 2550 2250
+Wire Wire Line
+	2550 1950 2550 1700
+$Comp
+L Resistor_User:47R,1206 R307
+U 1 1 61CAC0DD
+P 2550 2100
+F 0 "R307" H 2609 2191 50  0000 L CNN
+F 1 "47R,1206" H 2400 1600 50  0001 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2650 1700 50  0001 C CNN
+F 3 "~" H 2550 2100 50  0001 C CNN
+F 4 "47R, 1206" H 2609 2100 50  0000 L CNN "Pretty Value"
+F 5 "1%, 0,5W" H 2609 2009 50  0000 L CNN "Info"
+	1    2550 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 5050 7750 5050
+Wire Wire Line
+	7750 5250 7750 5050
+Connection ~ 7750 5050
+Wire Wire Line
+	7750 5050 8900 5050
+Wire Wire Line
+	1950 5050 2550 5050
+Wire Wire Line
+	1950 3200 2550 3200
+Wire Wire Line
+	7150 3200 7750 3200
+Wire Wire Line
+	7150 1700 7750 1700
+$Comp
+L Transistor_FET_User:BSH103,xxx Q311
+U 1 1 61CE136D
+P 7650 4050
+F 0 "Q311" H 7854 4096 50  0000 L CNN
+F 1 "BSH103,xxx" H 7854 4005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD_User:SOT-23_Handsoldering" H 7850 3975 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSH103.pdf" H 7650 4050 50  0001 L CNN
+F 4 "Nexperia" H 7850 3850 50  0001 L CNN "Manufacturer"
+F 5 "Digi-Key" H 7850 3750 50  0001 L CNN "Supplier"
+F 6 "1727-4319-1-ND" H 8200 3750 50  0001 L CNN "SPN"
+	1    7650 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3400 1050 3400
+Wire Wire Line
+	6200 3400 6250 3400
+Wire Wire Line
+	6200 1900 6250 1900
+Wire Wire Line
+	1000 5250 1050 5250
+Wire Wire Line
+	2550 5300 2550 5050
+Connection ~ 2550 5050
+Wire Wire Line
+	2550 5050 3700 5050
+Wire Wire Line
+	2550 5600 2550 5700
+Wire Wire Line
+	1050 5250 1050 5900
+Connection ~ 1050 5250
+Wire Wire Line
+	1050 5250 1150 5250
+Wire Wire Line
+	1050 3400 1050 4050
+Connection ~ 1050 3400
+Wire Wire Line
+	1050 3400 1150 3400
+Wire Wire Line
+	2550 3750 2550 3850
+Wire Wire Line
+	2550 3450 2550 3200
+Connection ~ 2550 3200
+Wire Wire Line
+	2550 3200 3700 3200
+Wire Wire Line
+	7750 3450 7750 3200
+Connection ~ 7750 3200
+Wire Wire Line
+	7750 3200 8900 3200
+Wire Wire Line
+	7750 2350 7750 2250
+Wire Wire Line
+	7750 1950 7750 1700
+Connection ~ 7750 1700
+Wire Wire Line
+	7750 1700 8900 1700
+Wire Wire Line
+	7750 3750 7750 3850
+Wire Wire Line
+	7750 5550 7750 5700
+Wire Wire Line
+	6250 5250 6250 5900
+Connection ~ 6250 5250
+Wire Wire Line
+	6250 5250 6350 5250
+Wire Wire Line
+	6250 3400 6250 4050
+Connection ~ 6250 3400
+Wire Wire Line
+	6250 3400 6350 3400
+Wire Wire Line
+	6250 1900 6250 2550
+Connection ~ 6250 1900
+Wire Wire Line
+	6250 1900 6350 1900
+$Comp
+L Connector_User:CT2910-9 J315
+U 1 1 61CD7E9A
+P 10500 2600
+F 0 "J315" H 10580 2691 50  0000 L CNN
+F 1 "CT2910-9" H 10580 2600 50  0000 L CNN
+F 2 "Connector_User:Banana_Jack_Cal_Test_Electronics_CT2910-9" H 10650 2200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Cal%20Test%20PDFs/Catalog.pdf" H 10500 2600 50  0001 C CNN
+F 4 "Cal Test Electronics" H 10500 2100 50  0001 C CNN "Manufacturer"
+F 5 "Digi-Key" H 10350 2000 50  0001 C CNN "Supplier"
+F 6 "CT2910-9-ND" H 10800 2000 50  0001 C CNN "SPN"
+F 7 "PCB Tab" H 10580 2509 50  0000 L CNN "Info"
+	1    10500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_User:CT2910-9 J316
+U 1 1 61CD7E90
+P 10500 2950
+F 0 "J316" H 10580 3041 50  0000 L CNN
+F 1 "CT2910-9" H 10580 2950 50  0000 L CNN
+F 2 "Connector_User:Banana_Jack_Cal_Test_Electronics_CT2910-9" H 10650 2550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Cal%20Test%20PDFs/Catalog.pdf" H 10500 2950 50  0001 C CNN
+F 4 "Cal Test Electronics" H 10500 2450 50  0001 C CNN "Manufacturer"
+F 5 "Digi-Key" H 10350 2350 50  0001 C CNN "Supplier"
+F 6 "CT2910-9-ND" H 10800 2350 50  0001 C CNN "SPN"
+F 7 "PCB Tab" H 10580 2859 50  0000 L CNN "Info"
+	1    10500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_User:CT2910-9 J310
+U 1 1 61CD2380
+P 10500 700
+F 0 "J310" H 10580 791 50  0000 L CNN
+F 1 "CT2910-9" H 10580 700 50  0000 L CNN
+F 2 "Connector_User:Banana_Jack_Cal_Test_Electronics_CT2910-9" H 10650 300 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Cal%20Test%20PDFs/Catalog.pdf" H 10500 700 50  0001 C CNN
+F 4 "Cal Test Electronics" H 10500 200 50  0001 C CNN "Manufacturer"
+F 5 "Digi-Key" H 10350 100 50  0001 C CNN "Supplier"
+F 6 "CT2910-9-ND" H 10800 100 50  0001 C CNN "SPN"
+F 7 "PCB Tab" H 10580 609 50  0000 L CNN "Info"
+	1    10500 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_User:CT2910-9 J311
+U 1 1 61CD2376
+P 10500 1050
+F 0 "J311" H 10580 1141 50  0000 L CNN
+F 1 "CT2910-9" H 10580 1050 50  0000 L CNN
+F 2 "Connector_User:Banana_Jack_Cal_Test_Electronics_CT2910-9" H 10650 650 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Cal%20Test%20PDFs/Catalog.pdf" H 10500 1050 50  0001 C CNN
+F 4 "Cal Test Electronics" H 10500 550 50  0001 C CNN "Manufacturer"
+F 5 "Digi-Key" H 10350 450 50  0001 C CNN "Supplier"
+F 6 "CT2910-9-ND" H 10800 450 50  0001 C CNN "SPN"
+F 7 "PCB Tab" H 10580 959 50  0000 L CNN "Info"
+	1    10500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_User:CT2910-9 J312
+U 1 1 61D526DE
+P 10500 1350
+F 0 "J312" H 10580 1441 50  0000 L CNN
+F 1 "CT2910-9" H 10580 1350 50  0000 L CNN
+F 2 "Connector_User:Banana_Jack_Cal_Test_Electronics_CT2910-9" H 10650 950 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Cal%20Test%20PDFs/Catalog.pdf" H 10500 1350 50  0001 C CNN
+F 4 "Cal Test Electronics" H 10500 850 50  0001 C CNN "Manufacturer"
+F 5 "Digi-Key" H 10350 750 50  0001 C CNN "Supplier"
+F 6 "CT2910-9-ND" H 10800 750 50  0001 C CNN "SPN"
+F 7 "PCB Tab" H 10580 1259 50  0000 L CNN "Info"
+	1    10500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_User:CT2910-9 J313
+U 1 1 61D3AEBB
+P 10500 1700
+F 0 "J313" H 10580 1791 50  0000 L CNN
+F 1 "CT2910-9" H 10580 1700 50  0000 L CNN
+F 2 "Connector_User:Banana_Jack_Cal_Test_Electronics_CT2910-9" H 10650 1300 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Cal%20Test%20PDFs/Catalog.pdf" H 10500 1700 50  0001 C CNN
+F 4 "Cal Test Electronics" H 10500 1200 50  0001 C CNN "Manufacturer"
+F 5 "Digi-Key" H 10350 1100 50  0001 C CNN "Supplier"
+F 6 "CT2910-9-ND" H 10800 1100 50  0001 C CNN "SPN"
+F 7 "PCB Tab" H 10580 1609 50  0000 L CNN "Info"
+	1    10500 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitor_User:470nF,25V,X7R,0603 C301
+U 1 1 61D15183
+P 1250 1900
+F 0 "C301" V 931 1900 50  0000 C CNN
+F 1 "470nF,25V,X7R,0603" H 1350 1700 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1300 1500 50  0001 C CNN
+F 3 "~" H 1250 1900 50  0001 C CNN
+F 4 "470nF, 25V" V 1022 1900 50  0000 C CNN "Pretty Value 1"
+F 5 "X7R, 0603" V 1113 1900 50  0000 C CNN "Pretty Value 2"
+	1    1250 1900
+	0    1    1    0   
+$EndComp
+Connection ~ 1350 1900
+$Comp
+L Capacitor_User:470nF,25V,X7R,0603 C302
+U 1 1 61D16838
+P 1250 3400
+F 0 "C302" V 931 3400 50  0000 C CNN
+F 1 "470nF,25V,X7R,0603" H 1350 3200 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1300 3000 50  0001 C CNN
+F 3 "~" H 1250 3400 50  0001 C CNN
+F 4 "470nF, 25V" V 1022 3400 50  0000 C CNN "Pretty Value 1"
+F 5 "X7R, 0603" V 1113 3400 50  0000 C CNN "Pretty Value 2"
+	1    1250 3400
+	0    1    1    0   
+$EndComp
+Connection ~ 1350 3400
+$Comp
+L Capacitor_User:470nF,25V,X7R,0603 C303
+U 1 1 61D16CC1
+P 1250 5250
+F 0 "C303" V 931 5250 50  0000 C CNN
+F 1 "470nF,25V,X7R,0603" H 1350 5050 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1300 4850 50  0001 C CNN
+F 3 "~" H 1250 5250 50  0001 C CNN
+F 4 "470nF, 25V" V 1022 5250 50  0000 C CNN "Pretty Value 1"
+F 5 "X7R, 0603" V 1113 5250 50  0000 C CNN "Pretty Value 2"
+	1    1250 5250
+	0    1    1    0   
+$EndComp
+Connection ~ 1350 5250
+$Comp
+L Capacitor_User:470nF,25V,X7R,0603 C306
+U 1 1 61D17041
+P 6450 5250
+F 0 "C306" V 6131 5250 50  0000 C CNN
+F 1 "470nF,25V,X7R,0603" H 6550 5050 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6500 4850 50  0001 C CNN
+F 3 "~" H 6450 5250 50  0001 C CNN
+F 4 "470nF, 25V" V 6222 5250 50  0000 C CNN "Pretty Value 1"
+F 5 "X7R, 0603" V 6313 5250 50  0000 C CNN "Pretty Value 2"
+	1    6450 5250
+	0    1    1    0   
+$EndComp
+Connection ~ 6550 5250
+$Comp
+L Capacitor_User:470nF,25V,X7R,0603 C305
+U 1 1 61D174F2
+P 6450 3400
+F 0 "C305" V 6131 3400 50  0000 C CNN
+F 1 "470nF,25V,X7R,0603" H 6550 3200 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6500 3000 50  0001 C CNN
+F 3 "~" H 6450 3400 50  0001 C CNN
+F 4 "470nF, 25V" V 6222 3400 50  0000 C CNN "Pretty Value 1"
+F 5 "X7R, 0603" V 6313 3400 50  0000 C CNN "Pretty Value 2"
+	1    6450 3400
+	0    1    1    0   
+$EndComp
+Connection ~ 6550 3400
+$Comp
+L Capacitor_User:470nF,25V,X7R,0603 C304
+U 1 1 61D1801C
+P 6450 1900
+F 0 "C304" V 6131 1900 50  0000 C CNN
+F 1 "470nF,25V,X7R,0603" H 6550 1700 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6500 1500 50  0001 C CNN
+F 3 "~" H 6450 1900 50  0001 C CNN
+F 4 "470nF, 25V" V 6222 1900 50  0000 C CNN "Pretty Value 1"
+F 5 "X7R, 0603" V 6313 1900 50  0000 C CNN "Pretty Value 2"
+	1    6450 1900
+	0    1    1    0   
+$EndComp
+Connection ~ 6550 1900
+$Comp
+L Connector_User:360291 J304
+U 1 1 61D3464A
+P 5300 2150
+F 0 "J304" H 5380 2192 50  0000 L CNN
+F 1 "360291" H 5380 2101 50  0000 L CNN
+F 2 "Connector_User:Terminal_Block_Metz_Connect_360291" H 5500 1600 50  0001 C CNN
+F 3 "https://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDFhttps://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDF" H 5300 2150 50  0001 C CNN
+F 4 "Metz Connect" H 5300 1900 50  0001 C CNN "Manufacturer"
+F 5 "Reichelt" H 5300 1800 50  0001 C CNN "Supplier"
+F 6 "LSK 291" H 5300 1700 50  0001 C CNN "SPN"
+	1    5300 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 2100
+$Comp
+L Connector_User:360291 J305
+U 1 1 61D35D49
+P 5300 3650
+F 0 "J305" H 5380 3692 50  0000 L CNN
+F 1 "360291" H 5380 3601 50  0000 L CNN
+F 2 "Connector_User:Terminal_Block_Metz_Connect_360291" H 5500 3100 50  0001 C CNN
+F 3 "https://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDFhttps://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDF" H 5300 3650 50  0001 C CNN
+F 4 "Metz Connect" H 5300 3400 50  0001 C CNN "Manufacturer"
+F 5 "Reichelt" H 5300 3300 50  0001 C CNN "Supplier"
+F 6 "LSK 291" H 5300 3200 50  0001 C CNN "SPN"
+	1    5300 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 3600
+$Comp
+L Connector_User:360291 J306
+U 1 1 61D36494
+P 5300 5500
+F 0 "J306" H 5380 5542 50  0000 L CNN
+F 1 "360291" H 5380 5451 50  0000 L CNN
+F 2 "Connector_User:Terminal_Block_Metz_Connect_360291" H 5500 4950 50  0001 C CNN
+F 3 "https://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDFhttps://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDF" H 5300 5500 50  0001 C CNN
+F 4 "Metz Connect" H 5300 5250 50  0001 C CNN "Manufacturer"
+F 5 "Reichelt" H 5300 5150 50  0001 C CNN "Supplier"
+F 6 "LSK 291" H 5300 5050 50  0001 C CNN "SPN"
+	1    5300 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 5450
+$Comp
+L Connector_User:360291 J303
+U 1 1 61D36CB9
+P 3300 5500
+F 0 "J303" H 3218 5767 50  0000 C CNN
+F 1 "360291" H 3218 5676 50  0000 C CNN
+F 2 "Connector_User:Terminal_Block_Metz_Connect_360291" H 3500 4950 50  0001 C CNN
+F 3 "https://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDFhttps://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDF" H 3300 5500 50  0001 C CNN
+F 4 "Metz Connect" H 3300 5250 50  0001 C CNN "Manufacturer"
+F 5 "Reichelt" H 3300 5150 50  0001 C CNN "Supplier"
+F 6 "LSK 291" H 3300 5050 50  0001 C CNN "SPN"
+	1    3300 5500
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3500 5450
+$Comp
+L Connector_User:360291 J302
+U 1 1 61D37753
+P 3300 3650
+F 0 "J302" H 3218 3917 50  0000 C CNN
+F 1 "360291" H 3218 3826 50  0000 C CNN
+F 2 "Connector_User:Terminal_Block_Metz_Connect_360291" H 3500 3100 50  0001 C CNN
+F 3 "https://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDFhttps://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDF" H 3300 3650 50  0001 C CNN
+F 4 "Metz Connect" H 3300 3400 50  0001 C CNN "Manufacturer"
+F 5 "Reichelt" H 3300 3300 50  0001 C CNN "Supplier"
+F 6 "LSK 291" H 3300 3200 50  0001 C CNN "SPN"
+	1    3300 3650
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3500 3600
+$Comp
+L Connector_User:360291 J301
+U 1 1 61D3825C
+P 3300 2150
+F 0 "J301" H 3218 2417 50  0000 C CNN
+F 1 "360291" H 3218 2326 50  0000 C CNN
+F 2 "Connector_User:Terminal_Block_Metz_Connect_360291" H 3500 1600 50  0001 C CNN
+F 3 "https://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDFhttps://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDF" H 3300 2150 50  0001 C CNN
+F 4 "Metz Connect" H 3300 1900 50  0001 C CNN "Manufacturer"
+F 5 "Reichelt" H 3300 1800 50  0001 C CNN "Supplier"
+F 6 "LSK 291" H 3300 1700 50  0001 C CNN "SPN"
+	1    3300 2150
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3500 2100
+$Comp
+L Connector_User:360291 J308
+U 1 1 61D38B1F
+P 8450 2150
+F 0 "J308" H 8368 2417 50  0000 C CNN
+F 1 "360291" H 8368 2326 50  0000 C CNN
+F 2 "Connector_User:Terminal_Block_Metz_Connect_360291" H 8650 1600 50  0001 C CNN
+F 3 "https://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDFhttps://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDF" H 8450 2150 50  0001 C CNN
+F 4 "Metz Connect" H 8450 1900 50  0001 C CNN "Manufacturer"
+F 5 "Reichelt" H 8450 1800 50  0001 C CNN "Supplier"
+F 6 "LSK 291" H 8450 1700 50  0001 C CNN "SPN"
+	1    8450 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_User:360291 J314
+U 1 1 61D3946A
+P 10500 2150
+F 0 "J314" H 10580 2192 50  0000 L CNN
+F 1 "360291" H 10580 2101 50  0000 L CNN
+F 2 "Connector_User:Terminal_Block_Metz_Connect_360291" H 10700 1600 50  0001 C CNN
+F 3 "https://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDFhttps://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDF" H 10500 2150 50  0001 C CNN
+F 4 "Metz Connect" H 10500 1900 50  0001 C CNN "Manufacturer"
+F 5 "Reichelt" H 10500 1800 50  0001 C CNN "Supplier"
+F 6 "LSK 291" H 10500 1700 50  0001 C CNN "SPN"
+	1    10500 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 8650 2100
+Connection ~ 10300 2100
+$Comp
+L Connector_User:360291 J317
+U 1 1 61D3AD99
+P 10500 3650
+F 0 "J317" H 10580 3692 50  0000 L CNN
+F 1 "360291" H 10580 3601 50  0000 L CNN
+F 2 "Connector_User:Terminal_Block_Metz_Connect_360291" H 10700 3100 50  0001 C CNN
+F 3 "https://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDFhttps://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDF" H 10500 3650 50  0001 C CNN
+F 4 "Metz Connect" H 10500 3400 50  0001 C CNN "Manufacturer"
+F 5 "Reichelt" H 10500 3300 50  0001 C CNN "Supplier"
+F 6 "LSK 291" H 10500 3200 50  0001 C CNN "SPN"
+	1    10500 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 3600
+$Comp
+L Connector_User:360291 J318
+U 1 1 61D3B704
+P 10500 5500
+F 0 "J318" H 10580 5542 50  0000 L CNN
+F 1 "360291" H 10580 5451 50  0000 L CNN
+F 2 "Connector_User:Terminal_Block_Metz_Connect_360291" H 10700 4950 50  0001 C CNN
+F 3 "https://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDFhttps://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDF" H 10500 5500 50  0001 C CNN
+F 4 "Metz Connect" H 10500 5250 50  0001 C CNN "Manufacturer"
+F 5 "Reichelt" H 10500 5150 50  0001 C CNN "Supplier"
+F 6 "LSK 291" H 10500 5050 50  0001 C CNN "SPN"
+	1    10500 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 5450
+$Comp
+L Connector_User:360291 J309
+U 1 1 61D3C50E
+P 8450 3650
+F 0 "J309" H 8368 3917 50  0000 C CNN
+F 1 "360291" H 8368 3826 50  0000 C CNN
+F 2 "Connector_User:Terminal_Block_Metz_Connect_360291" H 8650 3100 50  0001 C CNN
+F 3 "https://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDFhttps://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDF" H 8450 3650 50  0001 C CNN
+F 4 "Metz Connect" H 8450 3400 50  0001 C CNN "Manufacturer"
+F 5 "Reichelt" H 8450 3300 50  0001 C CNN "Supplier"
+F 6 "LSK 291" H 8450 3200 50  0001 C CNN "SPN"
+	1    8450 3650
+	-1   0    0    -1  
+$EndComp
+Connection ~ 8650 3600
+$Comp
+L Connector_User:360291 J307
+U 1 1 61D3CBF1
+P 8400 5500
+F 0 "J307" H 8318 5767 50  0000 C CNN
+F 1 "360291" H 8318 5676 50  0000 C CNN
+F 2 "Connector_User:Terminal_Block_Metz_Connect_360291" H 8600 4950 50  0001 C CNN
+F 3 "https://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDFhttps://www.metz-connect.com/html/overlay:service:download.en.html?filepath=db%3Aproducts%2Fdocid%3A8a8a80ea7cb7943b017ccc0508e413d9.de.1&fileurl=360291%2F863862.PDF" H 8400 5500 50  0001 C CNN
+F 4 "Metz Connect" H 8400 5250 50  0001 C CNN "Manufacturer"
+F 5 "Reichelt" H 8400 5150 50  0001 C CNN "Supplier"
+F 6 "LSK 291" H 8400 5050 50  0001 C CNN "SPN"
+	1    8400 5500
+	-1   0    0    -1  
+$EndComp
+Connection ~ 8600 5450
+$EndSCHEMATC

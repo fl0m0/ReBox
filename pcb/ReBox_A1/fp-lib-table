@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name larson-scanner)(type KiCad)(uri "D:/Eigene Dateien/Bastelprojekte/RC-Beleuchtung/pcb/larson-scanner_v1.0/libs/larson-scanner.pretty")(options "")(descr ""))
+  (lib (name 2061_smd)(type KiCad)(uri D:/Temp/kicad/2021-12-29_17-08-29/2061_smd.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri D:/Temp/kicad/2021-12-29_17-08-29/2061_tht.pretty/footprints.pretty)(options "")(descr ""))
+)
